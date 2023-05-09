@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Page1 from "./Components/Page1/Page1";
 import Page2 from "./Components/Page2/Page2";
-import Page2id from "./Components/Page2/Page2id";
+import Page2id from "./Components/Page2/Page2id"; 
 import { NavLink } from 'react-router-dom';
 
 const api = {
