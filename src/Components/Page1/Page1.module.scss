@@ -1,0 +1,98 @@
+
+.warm {
+    background-image: url('../../assets/cold-bg.jpg');
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.4 ease;
+    color: #000000;
+    height: auto
+  }
+  
+  .app {
+    background-image: url('../../assets/warm-bg.jpg');
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.4 ease;
+    color: #FFF;
+    height: auto;
+  }
+.main {
+    // min-height: 40vh;
+    height: auto;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
+    padding: 25px;
+  }
+
+.wrapper {
+    background: #0b131e;
+    width: 100%;
+    height: 100%;
+    color: aliceblue;
+    position: relative;
+}
+
+.head {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+
+    & .name{
+        font-size: 50px;
+        font-weight: 700;
+        margin-bottom: -10px;
+        display: flex;
+        flex-direction: column;
+        & span {
+            font-size: 20px;
+            font-weight: 500;
+            color: rgba(255, 255, 255, 0.637);
+        }
+    }
+    & .img {
+        background-image: url(../../assets/sun.png);
+        width: 30%;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        animation: circle 13s linear infinite;
+        
+    }
+    & .img2 {
+        background-image: url(../../assets/sun.png);
+        width: 30%;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    & .clouds {
+        background-image: url(../../assets/cloudy.png);
+        width: 100%;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    & .rainy {
+        background-image: url(../../assets/rainy.png);
+        width: 100%;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+}
+
+.loader {
+    position: absolute;
+    left: 50%;
+    top: 250px;
+}
+
+@keyframes circle{
+    100%{
+      transform:rotate(360deg)
+    }
+  }
+  
