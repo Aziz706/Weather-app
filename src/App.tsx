@@ -1,7 +1,4 @@
 import { Routes, Route } from "react-router-dom";
-
-import Page3 from './Components/Page3/Page3';
-// import Navbar from './Components/Navbar/Navbar';
 import Page1 from "./Components/Page1/Page1";
 import Page2 from "./Components/Page2/Page2";
 import Page2id from "./Components/Page2/Page2id";
@@ -22,7 +19,6 @@ function App() {
         <Route path='/page-1' element={<Page1 api={api} />} />
         <Route path='/page-2' element={<Page2 api={api} />} />
         <Route path='/page-2/:id' element={<Page2id api={api} />} />
-        <Route path='/page-3' element={<Page3 />} />
       </Routes>
       </div>
       
