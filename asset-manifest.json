@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Weather-app/static/css/main.38e23be2.css",
-    "main.js": "/Weather-app/static/js/main.308b63d7.js",
-    "static/js/787.d9312eb8.chunk.js": "/Weather-app/static/js/787.d9312eb8.chunk.js",
-    "static/media/warm-bg.jpg": "/Weather-app/static/media/warm-bg.9434e536ba3492f3fa90.jpg",
-    "static/media/cold-bg.jpg": "/Weather-app/static/media/cold-bg.293db0fbc4c8e5fc8c70.jpg",
-    "static/media/sun.png": "/Weather-app/static/media/sun.6ec25720a6764cb8f5ee.png",
-    "static/media/cloudy.png": "/Weather-app/static/media/cloudy.7aaf887af27034b623ed.png",
-    "static/media/rainy.png": "/Weather-app/static/media/rainy.345afe6d13cb15654ebb.png",
-    "index.html": "/Weather-app/index.html",
-    "main.38e23be2.css.map": "/Weather-app/static/css/main.38e23be2.css.map",
-    "main.308b63d7.js.map": "/Weather-app/static/js/main.308b63d7.js.map",
-    "787.d9312eb8.chunk.js.map": "/Weather-app/static/js/787.d9312eb8.chunk.js.map"
+    "main.css": "/page-1/static/css/main.f437536c.css",
+    "main.js": "/page-1/static/js/main.34815d70.js",
+    "static/js/787.d9312eb8.chunk.js": "/page-1/static/js/787.d9312eb8.chunk.js",
+    "static/media/warm-bg.jpg": "/page-1/static/media/warm-bg.9434e536ba3492f3fa90.jpg",
+    "static/media/cold-bg.jpg": "/page-1/static/media/cold-bg.293db0fbc4c8e5fc8c70.jpg",
+    "static/media/sun.png": "/page-1/static/media/sun.6ec25720a6764cb8f5ee.png",
+    "static/media/cloudy.png": "/page-1/static/media/cloudy.7aaf887af27034b623ed.png",
+    "static/media/rainy.png": "/page-1/static/media/rainy.345afe6d13cb15654ebb.png",
+    "index.html": "/page-1/index.html",
+    "main.f437536c.css.map": "/page-1/static/css/main.f437536c.css.map",
+    "main.34815d70.js.map": "/page-1/static/js/main.34815d70.js.map",
+    "787.d9312eb8.chunk.js.map": "/page-1/static/js/787.d9312eb8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.38e23be2.css",
-    "static/js/main.308b63d7.js"
+    "static/css/main.f437536c.css",
+    "static/js/main.34815d70.js"
   ]
 }
