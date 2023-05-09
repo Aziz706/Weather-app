@@ -15,7 +15,7 @@ function App() {
       <div>
       <div style={{width: "100%", height: "100%"}} >
         <Routes>
-        <Route path='/' element={<Page1 api={api} />} />
+        <Route path='/Weather-app/' element={<Page1 api={api} />} />
         <Route path='/page-1' element={<Page1 api={api} />} />
         <Route path='/page-2' element={<Page2 api={api} />} />
         <Route path='/page-2/:id' element={<Page2id api={api} />} />
